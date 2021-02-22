@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto";
+}
+.pestana{
+	margin: 0 auto;
+	background: #eee;
+	border: 2px solid #333;
+}
+.seleccion-pestana div{
+	display: inline-block;
+	/*si se quiere cambiar la cantidad de pestañas en una linea cambiar el width*/
+	width: 33%;
+	padding: 12px 0;
+}
+.seleccion-pestana{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+.seleccion-pestana div.false:hover{
+	background: rgb(255, 130, 130) ;
+	color: #fff;
+}
+.seleccion-pestana div.true{
+	background: rgb(  250, 90, 90);
+	color: #fff;
+}
+.seleccion-pestana div.false{
+	background: #ccc5;
+}
+.pestana-contenido{
+	padding: 20px;
+}
+.pestanas-contenido .fals{
+	display: none;
+}
+.pestana-contenido .true{
+	display: block;
+}
